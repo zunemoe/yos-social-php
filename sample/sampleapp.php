@@ -17,10 +17,10 @@ session_start();
 // Make sure you obtain application keys before continuing by visiting:
 // https://developer.yahoo.com/dashboard/createKey.html
 
-define('OAUTH_CONSUMER_KEY', '###');
-define('OAUTH_CONSUMER_SECRET', '###');
-define('OAUTH_DOMAIN', '###');
-define('OAUTH_APP_ID', '###');
+define('OAUTH_CONSUMER_KEY', 'dj0yJmk9ckZyZFJvNWo1aDRxJmQ9WVdrOWRVOWtlVFZuTkhNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD0wZA--');
+define('OAUTH_CONSUMER_SECRET', 'd68199d977ed60292059030e3f72c3fe46816ce8');
+define('OAUTH_DOMAIN', 'http://www.tbvanguard.com/');
+define('OAUTH_APP_ID', 'uOdy5g4s');
 
 if(array_key_exists("logout", $_GET)) {
   // if a session exists and the logout flag is detected
